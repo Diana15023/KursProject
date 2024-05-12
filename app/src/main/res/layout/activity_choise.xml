@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choise">
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Авторизуйтесь, чтобы не
+потерять данные"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fontdisp"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/register_btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Регистрация"
+        android:textSize="16dp"
+        android:onClick = "clickerRegister"
+        app:layout_constraintEnd_toEndOf="@+id/textViewMain"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/textViewMain"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain" />
+
+    <Button
+        android:id="@+id/login_btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:text="Вход"
+        android:textSize="16dp"
+        android:onClick = "loginRegister"
+        app:layout_constraintEnd_toEndOf="@+id/register_btn_main"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/register_btn_main"
+        app:layout_constraintTop_toBottomOf="@+id/register_btn_main" />
+
+    <TextView
+        android:id="@+id/textView2Main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "30dp"
+        android:fontFamily="@font/fontdisp"
+        android:gravity="center"
+        android:text="Или войдите с помощью"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn_main" />
+
+    <Button
+        android:id="@+id/bSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:text="Вход через Google"
+        android:textSize="16dp"
+        android:onClick = "clickerGoogle"
+        app:layout_constraintEnd_toEndOf="@+id/textView2Main"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/textView2Main"
+        app:layout_constraintTop_toBottomOf="@+id/textView2Main" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

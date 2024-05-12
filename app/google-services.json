@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "88271339930",
+    "firebase_url": "https://kursprojectfb-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kursprojectfb",
+    "storage_bucket": "kursprojectfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88271339930:android:6cf2be57bcdd9bca963a23",
+        "android_client_info": {
+          "package_name": "com.example.kursproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88271339930-h01mqof50n42p4ti899jothluutj4qp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kursproject",
+            "certificate_hash": "9fd93af2a97aeadf2f9ded36282f739f14990b41"
+          }
+        },
+        {
+          "client_id": "88271339930-osrmb6ggadqmgleb3ua8fi64qlu1k57r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1HqV2y_5FUlq7N-mlUJPhNha_r35bU7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88271339930-osrmb6ggadqmgleb3ua8fi64qlu1k57r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

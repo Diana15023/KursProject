@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/analyticsFragment">
+
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="com.example.kursproject.fragments.AnalyticsFragment"
+        android:label="fragment_analytics"
+        tools:layout="@layout/fragment_analytics" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.kursproject.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/addOperationFragment"
+        android:name="com.example.kursproject.fragments.AddOperationFragment"
+        android:label="fragment_add_operation"
+        tools:layout="@layout/fragment_add_operation" />
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="com.example.kursproject.fragments.BudgetFragment"
+        android:label="fragment_budget"
+        tools:layout="@layout/fragment_budget" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.kursproject.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

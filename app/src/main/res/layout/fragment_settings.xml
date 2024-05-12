@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Информация о текущей почте пользователя -->
+
+        <!-- Изменить пароль -->
+
+        <!-- Изменить категории -->
+
+        <!-- Тема приложения -->
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="43dp"
+            android:text="Текущая почта: example@example.com"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Выбор валюты -->
+
+        <!-- Экспорт в Excel -->
+
+        <!-- Кнопка выхода из аккаунта -->
+
+        <TextView
+            android:id="@+id/textViewChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewEmail"
+            android:layout_marginTop="48dp"
+            android:text="Изменить пароль"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEmail"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="@+id/textViewEmail"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+
+        <TextView
+            android:id="@+id/textViewChangeCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewChangePassword"
+            android:layout_marginTop="40dp"
+            android:text="Изменить категории"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewChangePassword"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewChangePassword"
+            app:layout_constraintTop_toBottomOf="@+id/textViewChangePassword" />
+
+        <TextView
+            android:id="@+id/textViewAppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewChangeCategories"
+            android:layout_marginTop="40dp"
+            android:text="Тема приложения"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewChangeCategories"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewChangeCategories"
+            app:layout_constraintTop_toBottomOf="@+id/textViewChangeCategories" />
+
+        <TextView
+            android:id="@+id/textViewCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAppTheme"
+            android:layout_marginTop="48dp"
+            android:text="Выбор валюты"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewAppTheme"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewAppTheme"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAppTheme" />
+
+        <TextView
+            android:id="@+id/textViewExportExcel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewCurrency"
+            android:layout_marginTop="48dp"
+            android:text="Экспорт в Excel"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewCurrency"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewCurrency"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCurrency" />
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="71dp"
+            android:layout_marginEnd="165dp"
+            android:layout_marginBottom="55dp"
+            android:text="Выход из аккаунта"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
