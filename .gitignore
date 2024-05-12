@@ -18,3 +18,4 @@ gradle
 gradlew*
 gradle.properties
 settings.gradle.kts
+build.gradle.kts
